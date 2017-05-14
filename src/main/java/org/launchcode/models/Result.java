@@ -12,6 +12,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
 
+@Entity
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Result {
 
